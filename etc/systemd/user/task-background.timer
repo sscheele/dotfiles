@@ -1,0 +1,10 @@
+[Unit]
+Description=Runs gen-bg script every 15 minutes and on boot
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=1min
+Unit=task-background.service
+
+[Install]
+WantedBy=default.target

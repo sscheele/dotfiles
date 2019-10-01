@@ -1,0 +1,10 @@
+[Unit]
+Description=Set background to contain todoist tasks
+
+[Service]
+Type=simple
+ExecStart=/home/sam/Projects/gen-bg.sh
+# Environment="DISPLAY=:1 XAUTHORITY=/home/sam/.Xauthority"
+
+# [Install]
+# WantedBy=graphical.target
